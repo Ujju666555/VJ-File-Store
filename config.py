@@ -30,14 +30,14 @@ def is_enabled(value, default):
 # Ask Doubt on telegram @KingVJ01
       
 # Owner Information
-API_ID = int(environ.get("API_ID", "21692768"))
-API_HASH = environ.get("API_HASH", "4740976fc34afc2fc38e4a63a96f7a24")
-ADMINS = int(environ.get("ADMINS", "6822298543"))
+API_ID = int(environ.get("API_ID", "24852130"))
+API_HASH = environ.get("API_HASH", "8061d63fdccd2d1f5e16e7010e02fa84")
+ADMINS = int(environ.get("ADMINS", "7115068640"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://rahultarafdar017:5Hb28PZPcigD8n6a@cluster0.kub6zlj.mongodb.net/?retryWrites=true&w=majority")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://<username>:ujju84399259@ujjwalgarg01.zxq0v9r.mongodb.net/?retryWrites=true&w=majority&appName=Ujjwalgarg01")
 CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "mongodb+srv://saminurmondal12:gWvCJXujWrJ81v27@cluster0.hsu4l0a.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = environ.get("DB_URI", "mongodb+srv://ujjwal666555:Go92GltPv2RGuAXn@ujjwalgarg.tmxxath.mongodb.net/?retryWrites=true&w=majority&appName=Ujjwalgarg")
 DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 # Don't Remove Credit Tg - @VJ_Botz
@@ -46,16 +46,16 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "Movie9Boxbot") # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Cutecats55Bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
-AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
-AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
+AUTO_DELETE = int(environ.get("AUTO_DELETE", "60")) # Time in Minutes
+AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "3600")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "1002078137418"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002115684413')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002227410250"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002213602492')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@helping
@@ -79,7 +79,7 @@ class Var(object):
     name = str(getenv('name', 'filetolinkvjbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '1002078137418'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002227410250'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
